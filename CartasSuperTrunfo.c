@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
@@ -7,16 +8,73 @@
 //Teste Marcelo Bernardes da Silva
 
 int main() {
-    printf("Desafio - Cartas Super Trunfo!\n")
+
+    // Variaveis para a primeira carta    
+    char estado1, codigo1[4];
+    char nomeCidade1[50];
+    int populacao1, pontosTuristicos1;
+    float area1, pib1;
+
+    // Variaveis para a segunda carta
+    char estado2, codigo2[4];
+    char nomeCidade2[50];
+    int populacao2, pontosTuristicos2;
+    float area2, pib2;
     
+    printf("Desafio - Cartas Super Trunfo!\n\n");
 
+    // Coleta de dados da PRIMEIRA carta
+   
+   printf("Carta 1\n");
 
+   printf("Digite o Estado: ");
+   scanf(" %c", &estado1);
+   getchar(); // consome o Enter
 
+   printf("Código da carta: ");
+   scanf("%s", codigo1);
+    
+   printf("Nome da cidade: ");
+   scanf("%s", nomeCidade1);
+   
+   printf("População: ");
+   scanf("%d", &populacao1);
 
+   printf("Área: ");
+   scanf(" %f", &area1);
 
+   printf("PIB: ");
+   scanf(" %f", &pib1);
+   getchar(); // consome o Enter
 
+   printf("Pontos Turísticos: ");
+   scanf(" %d", &pontosTuristicos1);
 
+   // Coleta dos dados da SEGUNDA carta
 
+   printf("\n Carta 2\n");
+
+   printf("Digite o estado: ");
+   scanf(" %c", &estado2);
+   getchar(); // consome o Enter
+   
+   printf("Código da carta: ");
+   scanf("%s", codigo2);
+   
+   printf("Nome da Cidade: ");
+   scanf("%s", nomeCidade2);
+   
+   printf("População: ");
+   scanf("%d", &populacao2);
+
+   printf("Área: ");
+   scanf("%f", &area2);
+
+   printf("PIB: ");
+   scanf("%f", &pib2);
+
+   printf("Pontos Turísticos: ");
+   scanf("%d", &pontosTuristicos2);
 
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
