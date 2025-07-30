@@ -9,7 +9,9 @@ Divisão (/)
 */
 
   int numero1, numero2;
-  int
+  int soma, subtracao, multiplicacao, divisao;
+
+  soma = 
 
   
   
