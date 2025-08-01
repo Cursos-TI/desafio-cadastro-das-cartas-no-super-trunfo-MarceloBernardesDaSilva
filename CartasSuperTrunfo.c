@@ -7,8 +7,10 @@
 // Siga os comentários para implementar cada parte do desafio.
 //Teste Marcelo Bernardes da Silva
 
-float CalcularDensidade (int populacao, float area)
-{return
+// Função para calcular a densidade populacional
+float calcularDensidade (int populacao, float area)
+{return populacao / area;}
+
 int main() {
 
 // Variaveis para a primeira carta    
