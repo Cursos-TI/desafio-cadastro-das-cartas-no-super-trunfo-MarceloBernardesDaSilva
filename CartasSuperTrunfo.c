@@ -7,6 +7,8 @@
 // Siga os comentários para implementar cada parte do desafio.
 //Teste Marcelo Bernardes da Silva
 
+float CalcularDensidade (int populacao, float area)
+{return
 int main() {
 
 // Variaveis para a primeira carta    
